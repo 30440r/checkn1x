@@ -80,7 +80,7 @@ linux_logo() {
   echo ''
 }
 
-odysseyn1x_logo() {
+checkn1x_logo() {
   clear
   # Vertically center text
   filling_lines="$((($(tput lines) - 5) / 2))" # Calculate number of filling lines
