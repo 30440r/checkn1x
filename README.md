@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://gist.github.com/raspberryenvoie/586dbef790b752cabda3c50a0a169f6d/raw/838909cd160ba8e010c7b72618a71f84aa45d0aa/odysseyn1x-logo.png" alt="logo">
+    <img src="http://30440r.xyz/img/checkn1x-logo.png" alt="logo">
 </p>
 <br>
 <p align="center">
@@ -69,12 +69,12 @@ sync
 ## Booting Linux
 Select `Project Sandcastle` > `Start Linux`.
 
-# Building odysseyn1x
+# Building checkn1x
 
 To change the version of checkra1n, edit `CRSOURCE_amd64` and `CRSOURCE_i686`.\
 Execute these commands on a Debian-based system.
 ```
-git clone https://github.com/raspberryenvoie/odysseyn1x.git
+git clone https://github.com/30440r/checkn1x.git
 cd odysseyn1x
 sudo ./build.sh
 ```
@@ -90,4 +90,4 @@ Any contribution is always welcome :)
 - [Corellium](https://github.com/corellium) for [Project Sandcastle](https://projectsandcastle.org)
 - [u/GOGO307](https://www.reddit.com/user/GOGO307/) for the concept of an ISO with odysseyra1n
 - [MyCatCondo](https://github.com/MyCatCondo) for suggesting to integrate Project Sandcastle (Android and Linux for the iPhone)
-- [Everyone else who contributed to the project](https://github.com/raspberryenvoie/odysseyn1x/graphs/contributors)
+- [Everyone else who contributed to the project](https://github.com/30440r/checkn1x/graphs/contributors)
