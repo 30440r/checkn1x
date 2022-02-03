@@ -1,6 +1,6 @@
 #!/bin/sh
-# Made with <3 by raspberryenvoie
-# odysseyn1x build script (a fork of asineth/checkn1x)
+# Made by 30440r
+# checkn1x build script (a fork of raspberryenvoie/odysseyn1x)
 
 # Exit if user isn't root
 [ "$(id -u)" -ne 0 ] && {
@@ -18,7 +18,7 @@ NORMAL="$(tput sgr0)"
 cat << EOF
 ${GREEN}############################################${NORMAL}
 ${GREEN}#                                          #${NORMAL}
-${GREEN}#  ${BLUE}Welcome to the odysseyn1x build script  ${GREEN}#${NORMAL}
+${GREEN}#  ${BLUE}Welcome to the checkn1x build script  ${GREEN}#${NORMAL}
 ${GREEN}#                                          #${NORMAL}
 ${GREEN}############################################${NORMAL}
 
@@ -49,7 +49,7 @@ rm -rf work/
 set -e -u -v
 start_time="$(date -u +%s)"
 
-# Install dependencies to build odysseyn1x
+# Install dependencies to build checkn1x
 apt-get update
 apt-get install -y --no-install-recommends wget debootstrap grub-pc-bin \
     grub-efi-amd64-bin mtools squashfs-tools xorriso ca-certificates curl \
@@ -59,7 +59,7 @@ if [ "$ARCH" = 'amd64' ]; then
     REPO_ARCH='amd64' # Debian's 64-bit repos are "amd64"
     KERNEL_ARCH='amd64' # Debian's 32-bit kernels are suffixed "amd64"
 else
-    # Install depencies to build odysseyn1x for i686
+    # Install depencies to build checkn1x for i686
     dpkg --add-architecture i386
     apt-get update
     apt install -y --no-install-recommends libusb-1.0-0-dev:i386 gcc-multilib
@@ -175,13 +175,17 @@ EOF
 cat << "EOF" > work/iso/boot/grub/grub.cfg
 insmod all_video
 echo ''
-echo '  ___   __| |_   _ ___ ___  ___ _   _ _ __ / |_  __'
-echo ' / _ \ / _` | | | / __/ __|/ _ \ | | | `_ \| \ \/ /'
-echo '| (_) | (_| | |_| \__ \__ \  __/ |_| | | | | |>  < '
-echo ' \___/ \__,_|\__, |___/___/\___|\__, |_| |_|_/_/\_\'
-echo '             |___/              |___/              '
 echo ''
-echo '          Made with <3 by raspberryenvoie'
+echo '           88                                88                    88             '
+echo '           88                                88                  ,d88             '
+echo '           88                                88                888888             '
+echo ' ,adPPYba, 88,dPPYba,   ,adPPYba,  ,adPPYba, 88   ,d8  8b,dPPYba,  88 8b,     ,d8 '
+echo 'a8"     "" 88P'    "8a a8P_____88 a8"     "" 88 ,a8"   88P'   `"8a 88  `Y8, ,8P'  '
+echo '8b         88       88 8PP""""""" 8b         8888[     88       88 88    )888(    '
+echo '"8a,   ,aa 88       88 "8b,   ,aa "8a,   ,aa 88`"Yba,  88       88 88  ,d8" "8b,  '
+ echo '`"Ybbd8"' 88       88  `"Ybbd8"'  `"Ybbd8"' 88   `Y8a 88       88 88 8P'     `Y8 '
+echo ''
+echo '          Made by 30440r'
 linux /boot/vmlinuz boot=live quiet
 initrd /boot/initrd.img
 boot
