@@ -214,4 +214,4 @@ grub-mkrescue -o "checkn1x-$VERSION-$ARCH.iso" work/iso \
 end_time="$(date -u +%s)"
 elapsed_time="$((end_time - start_time))"
 
-echo "Built odysseyn1x-$VERSION-$ARCH in $((elapsed_time / 60)) minutes and $((elapsed_time % 60)) seconds."
+echo "Built checkn1x-$VERSION-$ARCH in $((elapsed_time / 60)) minutes and $((elapsed_time % 60)) seconds."
