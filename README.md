@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-    <img src="https://i.imgur.com/RqlVpan.png" alt="screenshot" width="650">
+    <img src="http://30440r.xyz/img/checkn1x-ss.png" alt="screenshot" width="650">
 </p>
 
 -------
