@@ -8,9 +8,9 @@
 </p>
 <p align="center">
     <a href="#usage">Usage</a> •
-    <a href="#odysseyra1n">Odysseyra1n</a> •
+    <a href="#odysseyra1n">odysseyra1n</a> •
     <a href="#project-sandcastle">Project Sandcastle</a> •
-    <a href="#building-odysseyn1x">Building odysseyn1x</a> •
+    <a href="#building-checkn1x">Building checkn1x</a> •
     <a href="#contributing">Contributing</a> •
     <a href="#credits">Credits</a>
 </p>
