@@ -55,7 +55,7 @@ Select `Project Sandcastle` > `Setup Project Sandcastle`. After that choose `Sta
 Note: Once Project Sandcastle is installed, simply choose `Start Android` to boot back into Android.
 
 ## Removing Android to reclaim space
-1. Login via SSH to your checkra1ned device (odysseyn1x has a feature for that) or use a terminal app (e.g. Newterm)
+1. Login via SSH to your checkra1ned device (ocheckn1x has a feature for that) or use a terminal app (e.g. Newterm)
 2. Run `ls /dev/disk0s1s*` and find the last volume. You can verify it's the right volume by running `/System/Library/Filesystems/apfs.fs/apfs.util -p VOLUME_HERE` and if it says Android, that's the correct one.
 3. Once you have the volume path, you can then run these commands as root (type `su`):
 ```
@@ -75,7 +75,7 @@ To change the version of checkra1n, edit `CRSOURCE_amd64` and `CRSOURCE_i686`.\
 Execute these commands on a Debian-based system.
 ```
 git clone https://github.com/30440r/checkn1x.git
-cd odysseyn1x
+cd checkn1x
 sudo ./build.sh
 ```
 
