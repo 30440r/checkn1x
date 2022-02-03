@@ -75,7 +75,11 @@ To change the version of checkra1n, edit `CRSOURCE_amd64` and `CRSOURCE_i686`.\
 Execute these commands on a Debian-based system.
 ```
 git clone https://github.com/30440r/checkn1x.git
+```
+```
 cd checkn1x
+```
+```
 sudo ./build.sh
 ```
 
