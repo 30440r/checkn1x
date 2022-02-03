@@ -192,9 +192,9 @@ boot
 EOF
 
 # Change hostname and configure .bashrc
-echo 'odysseyn1x' > work/chroot/etc/hostname
-echo "export ODYSSEYN1X_VERSION='$VERSION'" > work/chroot/root/.bashrc
-echo '/usr/bin/odysseyn1x_menu' >> work/chroot/root/.bashrc
+echo 'checkn1x' > work/chroot/etc/hostname
+echo "export CHECKN1X_VERSION='$VERSION'" > work/chroot/root/.bashrc
+echo '/usr/bin/checkn1x_menu' >> work/chroot/root/.bashrc
 
 rm -f work/chroot/etc/resolv.conf
 
@@ -205,7 +205,7 @@ umount work/chroot/dev
 cp work/chroot/vmlinuz work/iso/boot
 cp work/chroot/initrd.img work/iso/boot
 mksquashfs work/chroot work/iso/live/filesystem.squashfs -noappend -e boot -comp xz -Xbcj x86
-grub-mkrescue -o "odysseyn1x-$VERSION-$ARCH.iso" work/iso \
+grub-mkrescue -o "checkn1x-$VERSION-$ARCH.iso" work/iso \
     --compress=xz \
     --fonts='' \
     --locales='' \
