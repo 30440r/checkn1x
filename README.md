@@ -83,7 +83,7 @@ sudo ./build.sh
 Any contribution is always welcome :)
 
 # Credits
-- Asineth for checkn1x
+- raspberryenvoie for odysseyn1x
 - The checkra1n team for [checkra1n](https://checkra.in)
 - CoolStar for [odysseyra1n](https://github.com/coolstar/Odyssey-bootstrap)
 - [The Procursus Team](https://github.com/ProcursusTeam/) for [Procursus](https://github.com/ProcursusTeam/Procursus)
