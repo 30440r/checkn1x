@@ -6,6 +6,9 @@
 <strong>Linux distro that lets you install <a href="https://checkra.in/">checkra1n</a>, <a href="https://github.com/coolstar/Odyssey-bootstrap">odysseyra1n</a> and <a href="https://projectsandcastle.org/">Project Sandcastle</a>.</strong><br>
     It aims to be easy to use, have a nice interface and support 32 and 64 bit CPUs.
 </p>
+
+[![Build](https://github.com/30440r/checkn1x/actions/workflows/build.yml/badge.svg)](https://github.com/30440r/checkn1x/actions/workflows/build.yml)
+
 <p align="center">
     <a href="#usage">Usage</a> •
     <a href="#odysseyra1n">odysseyra1n</a> •
