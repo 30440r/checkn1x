@@ -14,7 +14,7 @@ If yes explain what you have changed. If no, just say "no.".
 If applicable, add screenshots to help explain your problem.
 
 **What PC and linux distro (with version) did you use?:**
- - ex: Dell hopbop 69240, Debian 4.20
+ex: Dell hopbop 69240, Debian 4.20
 
 **Additional comments**
 Add any other comments about your build here.
