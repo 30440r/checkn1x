@@ -16,11 +16,11 @@ GREEN="$(tput setaf 2)"
 BLUE="$(tput setaf 6)"
 NORMAL="$(tput sgr0)"
 cat << EOF
-${GREEN}################################################${NORMAL}
-${GREEN}#                                              #${NORMAL}
-${GREEN}#  ${BLUE}Welcome to the checkn1x build script # ${GREEN}#${NORMAL}
-${GREEN}#                                              #${NORMAL}
-${GREEN}################################################${NORMAL}
+${GREEN}########################################################${NORMAL}
+${GREEN}#                                                      #${NORMAL}
+${GREEN}#  ${BLUE}Welcome to the checkn1x build script${GREEN} #${NORMAL}
+${GREEN}#                                                      #${NORMAL}
+${GREEN}########################################################${NORMAL}
 
 EOF
 # Ask for the version and architecture if variables are empty
