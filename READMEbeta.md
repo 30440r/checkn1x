@@ -35,7 +35,7 @@ The `amd64` iso is for 64-bit CPUs (AMD and Intel) and the `i686` one is for 32-
 3. Open balenaEtcher and write the `.iso` you downloaded to your USB drive.
 4. Reboot, enter your BIOS's boot menu and select the USB drive.
 
-#checkra1n
+# checkra1n
 test
 
 # Odysseyra1n
