@@ -9,6 +9,7 @@
 
 <p align="center">
     <a href="#usage">Usage</a> •
+    <a href="#checkra1n">checkra1n</a> •
     <a href="#odysseyra1n">odysseyra1n</a> •
     <a href="#project-sandcastle">Project Sandcastle</a> •
     <a href="#futurerestore">FutureRestore</a> •
@@ -33,6 +34,9 @@ The `amd64` iso is for 64-bit CPUs (AMD and Intel) and the `i686` one is for 32-
 2. Download [balenaEtcher](https://www.balena.io/etcher/). If you prefer Rufus, make sure to select GPT partition and DD image mode otherwise it won't work.
 3. Open balenaEtcher and write the `.iso` you downloaded to your USB drive.
 4. Reboot, enter your BIOS's boot menu and select the USB drive.
+
+#checkra1n
+test
 
 # Odysseyra1n
 ## What's odysseyra1n
