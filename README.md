@@ -3,7 +3,7 @@
 </p>
 <br>
 <p align="center">
-<strong>Linux distro that lets you install <a href="https://checkra.in/">checkra1n</a>, <a href="https://github.com/coolstar/Odyssey-bootstrap">odysseyra1n</a> and <a href="https://projectsandcastle.org/">Project Sandcastle</a>.</strong><br>
+<strong>Linux distro that lets you install <a href="https://checkra.in/">checkra1n</a>, <a href="https://github.com/coolstar/Odyssey-bootstrap">odysseyra1n</a>, <a href="https://projectsandcastle.org/">Project Sandcastle</a>, <a href="https://nightly.link/m1stadev/futurerestore/workflows/ci/test">FutureRestore</a> and <a href="https://github.com/airsquared/blobsaver">blobsaver</a>.</strong><br>
     It aims to be easy to use, have a nice interface and support 32 and 64 bit CPUs.
 </p>
 
@@ -11,6 +11,8 @@
     <a href="#usage">Usage</a> •
     <a href="#odysseyra1n">odysseyra1n</a> •
     <a href="#project-sandcastle">Project Sandcastle</a> •
+    <a href="#futurerestore">FutureRestore</a> •
+    <a href="#blobsaver">blobsaver</a> •
     <a href="#building-checkn1x">Building checkn1x</a> •
     <a href="#contributing">Contributing</a> •
     <a href="#credits">Credits</a>
@@ -84,15 +86,24 @@ cd checkn1x
 sudo ./build.sh
 ```
 
+# FutureRestore
+test
+
+# blobsaver
+test
+
+
 # Contributing
 Any contribution is always welcome :)
 
 # Credits
-- raspberryenvoie for odysseyn1x
-- The checkra1n team for [checkra1n](https://checkra.in)
+- [raspberryenvoie](https://github.com/raspberryenvoie) for odysseyn1x
+- The [checkra1n team]() for [checkra1n](https://checkra.in)
 - CoolStar for [odysseyra1n](https://github.com/coolstar/Odyssey-bootstrap)
 - [The Procursus Team](https://github.com/ProcursusTeam/) for [Procursus](https://github.com/ProcursusTeam/Procursus)
 - [Corellium](https://github.com/corellium) for [Project Sandcastle](https://projectsandcastle.org)
+- [Many](https://gist.githubusercontent.com/30440r/d04193f15d5488dba1a6a1f3babc2013/raw/fe47e5e828d50f55bbc2ee27af2aa51dd939e18b/fr) for [FutureRestore](https://www.google.com/search?q=futurerestore)
+- [airsquared](https://www.reddit.com/user/GOGO307/) for [blobsaver](https://github.com/airsquared/blobsaver)
 - [u/GOGO307](https://www.reddit.com/user/GOGO307/) for the concept of an ISO with odysseyra1n
 - [MyCatCondo](https://github.com/MyCatCondo) for suggesting to integrate Project Sandcastle (Android and Linux for the iPhone)
 - [Everyone else who contributed to the project](https://github.com/30440r/checkn1x/graphs/contributors)
