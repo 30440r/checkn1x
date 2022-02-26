@@ -3,7 +3,7 @@
 </p>
 <br>
 <p align="center">
-<strong>Linux distro that lets you install <a href="https://checkra.in/">checkra1n</a>, <a href="https://github.com/coolstar/Odyssey-bootstrap">odysseyra1n</a>, <a href="https://projectsandcastle.org/">Project Sandcastle</a>, <a href="https://nightly.link/m1stadev/futurerestore/workflows/ci/test">FutureRestore</a> and <a href="https://github.com/airsquared/blobsaver">blobsaver</a>.</strong><br>
+<strong>Linux distro that lets you install <a href="https://checkra.in/">checkra1n</a>, <a href="https://github.com/coolstar/Odyssey-bootstrap">odysseyra1n</a>, <a href="https://projectsandcastle.org/">Project Sandcastle</a>, <a href="https://nightly.link/m1stadev/futurerestore/workflows/ci/test">FutureRestore</a>, and <a href="https://github.com/airsquared/blobsaver">blobsaver</a>.</strong><br>
     It aims to be easy to use, have a nice interface and support 32 and 64 bit CPUs.
 </p>
 
